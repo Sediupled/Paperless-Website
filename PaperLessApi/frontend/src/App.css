@@ -12,31 +12,42 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #f05222);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #f05222);
+}
+body{
+  background-color: #282b3d;
+}
+.links{
+  position: absolute;
+  right:0;
+  top:0;
+  margin-top: 5px;
+  margin-right: 10px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#link{
+  font-family: 'Courier new';
+  font-size: 20px;
+  margin-right: 25px;
+  font-weight: bold;
+  color: orange;
+  border-right: solid;
+  border-width: 3px;
+  border-color: brown;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right:0;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+#link:hover {
+  filter: drop-shadow(0 0 2em #f05222);
+  color: black;
+  background-color: brown;
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.home{
 }
