@@ -6,7 +6,7 @@ function Home() {
   const title = "Paperless DnD";
   return (
     <>
-      <div className="home">
+      <div className="home-page">
         <h1>{title}</h1>
         <div>
           <img src={dragonImg} className="logo" />
