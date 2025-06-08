@@ -34,3 +34,4 @@
 /home/chaurr/Documents/web-dev/DnD-Site/PaperLessApi/obj/Debug/net8.0/PaperLessApi.genruntimeconfig.cache
 /home/chaurr/Documents/web-dev/DnD-Site/PaperLessApi/obj/Debug/net8.0/ref/PaperLessApi.dll
 /home/chaurr/Documents/web-dev/DnD-Site/PaperLessApi/obj/Debug/net8.0/PaperLessApi.sourcelink.json
+/home/chaurr/Documents/web-dev/DnD-Site/PaperLessApi/bin/Debug/net8.0/package-lock.json

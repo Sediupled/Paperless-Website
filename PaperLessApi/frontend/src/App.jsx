@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './Navbar'
 import Home from './Home'
 import About from './About'
+import Traits from './Traits'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
@@ -17,6 +18,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
+              <Route path="/SheetsnTraits" element={<Traits />} />
             </Routes>
           </div>
         </div>

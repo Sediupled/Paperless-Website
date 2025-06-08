@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import dragonImg from './assets/dragon_1016757.png'
 function Home() {
-  const [count, setCount] = useState(0)
+
 
   const title = "Paperless DnD";
   return (
@@ -11,7 +11,9 @@ function Home() {
         <div>
           <img src={dragonImg} className="logo" />
         </div>
-        <button>Start</button>
+        <a href="/SheetsnTraits">
+          <button>Start</button>
+        </a>
       </div>
     </>
   )
