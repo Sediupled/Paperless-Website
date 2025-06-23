@@ -6,11 +6,12 @@ function Home() {
   const title = "Paperless DnD";
   return (
     <>
+      <h1>{title}</h1>
       <div className="home-page">
-        <h1>{title}</h1>
-        <div>
-          <img src={dragonImg} className="logo" />
-        </div>
+
+        {/* <div> */}
+        <img src={dragonImg} className="logo" />
+        {/* </div> */}
         <a href="/SheetsnTraits">
           <button>Start</button>
         </a>
