@@ -1,0 +1,42 @@
+.navbar{
+  background-color: #344055;
+  height: 60px; 
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.links {
+  position: relative;
+  display: flex;
+  gap: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+#link {
+  font-family: 'Courier new';
+  font-size: 20px;
+  margin-right: 25px;
+  font-weight: bold;
+  color: #96C3CE;
+  border-right: solid;
+  border-width: 3px;
+  border-color: #7ae582;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 0;
+  underline: 
+
+}
+
+#link:hover {
+  filter: drop-shadow(0 0 2em #7ae582);
+  color: black;
+  background-color: #7ae582;
+}

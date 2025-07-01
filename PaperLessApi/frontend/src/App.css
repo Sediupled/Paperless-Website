@@ -1,113 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 
-
-#root {
-  max-width: 1920px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 20em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #f05222);
-}
-
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #f05222);
-}
-
-body {
-  background-color: #282b3d;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.home-page {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-
-.links {
-  position: absolute;
-  right: 0;
-  top: 0;
-  margin-top: 5px;
-  margin-right: 10px;
-}
-
-#link {
-  font-family: 'Courier new';
-  font-size: 20px;
-  margin-right: 25px;
-  font-weight: bold;
-  color: orange;
-  border-right: solid;
-  border-width: 3px;
-  border-color: brown;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin-right: 0;
-
-}
-
-#link:hover {
-  filter: drop-shadow(0 0 2em #f05222);
-  color: black;
-  background-color: brown;
-}
-
-.about {
-  padding: 0;
+* {
   margin: 0;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-  justify-content: flex-start;
-  /* Aligns content to top */
-  padding-top: 2rem;
-  /* Optional: space from top edge */
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#heading {
-  margin-bottom: 100px;
-}
-
-p {
-  font-size: 30px;
-  font-family: "Inconsolata";
-}
-
-.traits {
-  border: 8px solid black;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-#subheading {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#traitList {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-#listBox {
-  height: 500px;
-  max-width: 200px;
+body,html{
+  width:100%;
 }

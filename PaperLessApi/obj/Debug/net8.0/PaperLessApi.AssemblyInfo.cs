@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PaperLessApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b03e88420d1b0485b9fd0b2485f078ac56c957e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ca7ffe411e24472e49d0d948c133f188db70f12")]
 [assembly: System.Reflection.AssemblyProductAttribute("PaperLessApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PaperLessApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

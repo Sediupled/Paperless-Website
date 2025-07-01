@@ -1,0 +1,65 @@
+.home-page{
+  background-color: #13293d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+
+
+h1{
+  font-family: 'Roboto', sans-serif;  
+  font-size: 60px;
+  color:#d1d2f9;
+  margin-top: -80px;
+}
+
+.typewriter {
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid black;
+  width: 0;
+  animation: typing 3s steps(20, end) forwards, hide-cursor 0s 3s forwards;
+}
+
+@keyframes typing {
+  from { width: 0ch; }
+  to { width: 13ch; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+@keyframes hide-cursor {
+  to { border-right: none; }
+}
+.logo {
+  height: 30em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  margin-right: -60px;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #3e5478);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #3e5478);
+}
+
+button {
+  background-color: #274c77;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

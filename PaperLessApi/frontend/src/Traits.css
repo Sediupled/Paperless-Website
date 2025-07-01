@@ -1,0 +1,86 @@
+.traits {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #13293d;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.selectionArea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.statsArea {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin: 20px 0;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#listBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+  background-color: #1e2f45;
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+  max-width: 250px;
+  min-width: 200px;
+  flex-grow: 1;
+}
+
+p{
+  margin: 20px 0;
+}
+
+#rollBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #1e2f45;
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+  max-width: 250px;
+  min-width: 200px;
+  flex-grow: 1;
+  text-align: center;
+  
+}
+
+ul#traitList {
+  padding: 0;
+  list-style: none;
+}
+
+ul#traitList li {
+  margin: 10px 0;
+}
+
+input {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+  margin: 20px 0;
+}
+
