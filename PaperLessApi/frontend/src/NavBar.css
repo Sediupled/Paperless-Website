@@ -3,16 +3,22 @@
   height: 60px; 
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 10px;
   box-sizing: border-box;
 }
 
 .links {
   position: relative;
   display: flex;
-  gap: 20px;
+  gap: 10px;
+}
+
+.loginLinks {
+  position: relative;
+  display: flex;
+  gap: 10px;
 }
 
 a{

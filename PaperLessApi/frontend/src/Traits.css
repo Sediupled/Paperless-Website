@@ -8,6 +8,10 @@
   padding: 20px;
 }
 
+h2{
+  font-family: Helvetica;
+}
+
 .selectionArea {
   display: flex;
   flex-wrap: wrap;
@@ -41,6 +45,8 @@
 
 p{
   margin: 20px 0;
+  font-family: Helvetica;
+  font-size: 20px;
 }
 
 #rollBox {

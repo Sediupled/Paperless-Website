@@ -1,0 +1,29 @@
+.regPage {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border: 2px solid black;
+  z-index: 9999;
+  background-color: black;
+}
+
+#subheading{
+  color: white;
+  
+}
+
+input{
+  background-color: silver;
+  font-size: 20px;
+}
+
+#submit{
+  background-color: silver;
+  color: black;
+  border-radius: 20px;
+}
+

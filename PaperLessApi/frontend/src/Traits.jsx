@@ -60,7 +60,7 @@ function Traits() {
       try {
         const data = JSON.parse(text);
         setRaceDesc(data.description);
-        updateField('raceDesc', { raceDesc });
+        updateField('raceDesc', data.description);
 
 
 
@@ -68,7 +68,7 @@ function Traits() {
         console.error("Not valid JSON lol", e.message);
       }
     } catch (err) {
-      console.error('Error fetching Sub Race list: ', err);
+      console.error('Error fetching race description: ', err);
     }
 
   };
@@ -261,6 +261,31 @@ function Traits() {
     )
   }
 
+  async function postCharacter() {
+    const response = await fetch('http://localhost:5133/Character', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        name: traits.name,
+        playerName: traits.playerName,
+        race: traits.race,
+        subRace: traits.subRace,
+        raceDesc: traits.raceDesc,
+        healthbar: traits.healthbar,
+        charClass: traits.charClass,
+        wealth: traits.wealth,
+        level: 1,
+        userId: 1,
+        username: "apple"
+      }),
+    });
+
+    const data = await response.json();
+    console.log(data)
+  }
+
 
   return (
     <div className="traits">      <h1>Build Your Character</ h1>
@@ -277,6 +302,7 @@ function Traits() {
         <HealthRoll />
         <WealthRoll />
       </div>
+      <button onClick={postCharacter}>Send</button>;
 
     </div>
 
